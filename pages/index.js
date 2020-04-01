@@ -8,7 +8,7 @@ const About = () => {
         <h1>pure</h1>
 
         <p>
-          Full stack developer but usually Front-End ,{' '}
+          full stack developer but usually Front-End ,{' '}
           <Link underline href="/future">
             futuristic
           </Link>{' '}

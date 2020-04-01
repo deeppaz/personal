@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 import styles from './header.module.css'
-import postMeta from '@data/blog.json'
 import Command from '@components/command'
 import Button from '@components/button'
 import useTheme from '@lib/theme'
@@ -37,6 +36,7 @@ const Logo = () => {
     </Link>
   )
 }
+
 
 const Header = ({ title, content }) => {
   const router = useRouter()
@@ -84,34 +84,6 @@ const Header = ({ title, content }) => {
               keybind: 't',
               icon: theme === 'light' ? <Moon /> : <Sun />,
               callback: () => toggleTheme()
-            },
-            {
-              name: 'Blog',
-              collection: true,
-              items: [
-                {
-                  name: 'Blog',
-                  keybind: 'g b',
-                  icon: <Pencil />,
-                  callback: () => router.push('/blog')
-                },
-                {
-                  name: 'Search blog...',
-                  icon: <Search />,
-                  items: postMeta.map(post => {
-                    return {
-                      name: post.title,
-                      callback: () =>
-                        router.push('/blog/[slug]', `/blog/${post.slug}`)
-                    }
-                  })
-                },
-                {
-                  name: 'RSS',
-                  icon: <RSS />,
-                  callback: () => router.push('/feed.xml')
-                }
-              ]
             },
             {
               name: 'Collections',
@@ -209,7 +181,6 @@ const Header = ({ title, content }) => {
             <CommandIcon />
           </button>
         </Command>
-
         {content && <div className={styles.content}>{content}</div>}
       </div>
     </nav>
