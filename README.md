@@ -1,4 +1,4 @@
-# [personal website](https://#.com)
+# [personal website](https://puure.space)
 
 > personal website. designed with a focus on minimalism.
 
