@@ -1,26 +1,15 @@
 {
-  "name": "personal",
-  "version": "1.0.0",
-  "description": "personel website",
-  "main": "index.js",
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev":"next",
-    "build":"next build",
-    "start":"next start"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deeppaz/personal.git"
-  },
-  "author": "deeppaz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/deeppaz/personal/issues"
-  },
-  "homepage": "https://github.com/deeppaz/personal#readme",
   "dependencies": {
     "next": "^9.3.3",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   }
 }
