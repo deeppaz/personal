@@ -15,7 +15,7 @@ const Page = ({
   return (
     <div>
       <Head
-        title={`${title ? `${title} - ` : ''}Paco Coursey`}
+        title={`${title ? `${title} - ` : ''}pure`}
         description={description}
         image={image}
       />

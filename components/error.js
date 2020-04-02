@@ -7,7 +7,7 @@ const Error = ({ status }) => {
   return (
     <Page title={status || 'Error'}>
       <Head>
-        <title>404 — Paco Coursey</title>
+        <title>404 — pure</title>
       </Head>
 
       {status === 404 ? (

@@ -4,7 +4,7 @@ const defaultOgImage =
   'https://res.cloudinary.com/dsdlhtnpw/image/upload/v1572673557/og-image_budbm8.png'
 
 const Head = ({
-  title = 'Paco Coursey',
+  title = 'pure',
   description = "Hi, I'm Paco. Frontend developer and designer.",
   image = defaultOgImage,
   children
@@ -32,7 +32,7 @@ const Head = ({
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@pacocoursey" />
       <meta name="apple-mobile-web-app-title" content="Paco" />
-      <meta name="author" content="Paco Coursey" />
+      <meta name="author" content="pure" />
 
       {/* RSS feed */}
       <link
