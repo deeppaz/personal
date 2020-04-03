@@ -1,5 +1,5 @@
-# [paco.im](https://paco.im)
+# [puure.space](https://puure.space)
 
-> Personal website and blog. Designed with a focus on minimalism, UI interactions, and typography.
+> personal website and blog. designed with a focus on minimalism
 
 Built with [Next.js](https://nextjs.org) and styled with [styled-jsx](https://github.com/zeit/styled-jsx).
