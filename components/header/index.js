@@ -9,7 +9,6 @@ import useTheme from '@lib/theme'
 import {
   Moon,
   Sun,
-  Design,
   Book,
   M6,
   Music,
@@ -89,18 +88,6 @@ const Header = ({ title, content }) => {
               name: 'Collections',
               collection: true,
               items: [
-                {
-                  name: 'Reading',
-                  keybind: 'g r',
-                  icon: <Book />,
-                  callback: () => router.push('/reading')
-                },
-                {
-                  name: 'Design',
-                  keybind: 'g d',
-                  icon: <Design />,
-                  callback: () => router.push('/design')
-                },
                 {
                   name: 'Keyboard',
                   keybind: 'g k',
