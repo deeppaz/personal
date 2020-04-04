@@ -19,7 +19,7 @@ import {
   GitHub,
   Search,
   RSS,
-  Words,
+
   Lightbulb,
   Quote,
   Logo as LogoIcon,
@@ -88,12 +88,7 @@ const Header = ({ title, content }) => {
               name: 'Collections',
               collection: true,
               items: [
-                {
-                  name: 'Keyboard',
-                  keybind: 'g k',
-                  icon: <M6 />,
-                  callback: () => router.push('/keyboards')
-                },
+  
                 {
                   name: 'Music',
                   keybind: 'g m',
@@ -107,22 +102,10 @@ const Header = ({ title, content }) => {
                   callback: () => router.push('/projects')
                 },
                 {
-                  name: 'Quotes',
-                  keybind: 'g q',
+                  name: 'About',
+                  keybind: 'g a',
                   icon: <Quote />,
-                  callback: () => router.push('/quotes')
-                },
-                {
-                  name: 'Words',
-                  keybind: 'g w',
-                  icon: <Words />,
-                  callback: () => router.push('/words')
-                },
-                {
-                  name: 'Ideas',
-                  keybind: 'g i',
-                  icon: <Lightbulb />,
-                  callback: () => router.push('/ideas')
+                  callback: () => router.push('/about')
                 }
               ]
             },

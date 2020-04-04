@@ -6,57 +6,33 @@ const Projects = () => {
     <Page title="Projects" description="Collection of past and present work.">
       <article>
         <Entry
-          title="Geist"
-          description="The ZEIT Design System"
-          image="https://assets.zeit.co/image/upload/q_auto/front/assets/design/geist-card.png"
-          href="https://zeit.co/design"
+          title="Kivimenu"
+          description="The simplest in restaurant business"
+          image="https://i.snipboard.io/ZGFnJq.jpg"
+          href="https://kivimenu.com/"
         />
 
         <Entry
-          title="Opus"
-          description="Minimal note-taking application"
-          image="https://res.cloudinary.com/dsdlhtnpw/image/upload/v1572672667/opus_ts9o1o.png"
-          href="https://github.com/pacocoursey/opus"
+          title="Cryptosozluk"
+          description="Alternative source of information for Cryptocurrency only"
+          image="https://pbs.twimg.com/media/ENnYEq5XYAEGMBg?format=jpg"
+          href="https://github.com/crypto-sozluk/crypto_sozluk"
           position="top"
         />
 
         <Entry
-          title="Dusk"
-          description="Simple application icons"
-          image="https://res.cloudinary.com/dsdlhtnpw/image/upload/v1572672667/dusk_o7qcsa.png"
-          href="https://github.com/pacocoursey/dusk"
+          title="Binance Bot"
+          description="Order Cancel Order"
+          image="https://public.bnbstatic.com/20190324/0ad6840b-d41f-4e5b-9f51-8284cf8beb0f.png"
+          href="https://github.com/deeppaz/kullanisli-oco"
           position="top"
         />
 
         <Entry
-          title="F2PRS"
-          description="Accurate hiscores for RuneScape"
-          image="https://res.cloudinary.com/dsdlhtnpw/image/upload/v1572672667/f2prs_se1f4c.png"
-          href="https://github.com/pacocoursey/f2prs"
-          position="top"
-        />
-
-        <Entry
-          title="Xi"
-          description="Monochrome Atom UI theme"
-          image="https://res.cloudinary.com/dsdlhtnpw/image/upload/v1572672666/xi_xti7x0.png"
-          href="https://github.com/pacocoursey/xi-ui"
-          position="top"
-        />
-
-        <Entry
-          title="EHP"
-          description="Design and Website for EHP"
-          image="https://res.cloudinary.com/dsdlhtnpw/image/upload/v1572672667/ehp_ibfrlz.png"
-          href="https://github.com/pacocoursey/ehp-rs"
-          position="top"
-        />
-
-        <Entry
-          title="Songbird"
-          description="Website for Songbird Healing Studio"
-          image="https://res.cloudinary.com/dsdlhtnpw/image/upload/v1572672667/songbird_sb0kon.png"
-          href="http://songbirdhealingstudio.com/"
+          title="Alert tool"
+          description="Alert tool for Binance exchange"
+          image="https://www.cryptonewsz.com/wp-content/uploads/2019/04/Binance-coin-Cryptonewsz-03-1200x900.png"
+          href="https://github.com/deeppaz/uyariciarac_binance"
           position="top"
         />
       </article>
