@@ -1,9 +1,13 @@
-> hey i'm pure. .
+> hey i'm pure...
 >
-> People who don't know solitude never understand this. They are obsessed with the loneliness in their lives. They make unrealistic demands on those they love because they look to them to fill this loneliness. In the name of Love they smother those around them with their needs and expectations. They demand total absorption as part of a relationship, and they fear the freedom of those to whom they try to give their love.
+> i live in istanbul. i graduated from high school. i have been dealing with software since 2016. the first language i learned was c #, then remained in javascript. moreover, i use reactjs framework which i like and use frequently on the front-end also i use materialui reactj framework to help me
 >
-> In fact, what they want is for the people they love to conform to the shape of their own emptiness. The spaces in their lives, which should be rich, private sanctuaries, are really nothing more than vast longings waiting to be filled.
+> as a code editor i use vscode, vscode's other useful devices provides convenience.
+>
+> i attach importance to simplicity on the front-end. since i make a point of minimalism i don't like complicacy on the front-end. I use mongodb and firebase on the back-end
 
-[_Letters to My Son: A Father's Wisdom on Manhood, Women, Life and Love_](https://www.amazon.com/Letters-My-Son-Fathers-Manhood/dp/188003249X), Ken Nerburn
+[_github_](https://github.com/deeppaz), my github profile
+[_twitter_](https://github.com/deeppaz), twitter account
+[_linkedin_](https://github.com/deeppaz), my linkedin profile
 
 <br />

@@ -4,11 +4,11 @@ const Contact = () => {
   return (
     <Page title="Contact" footer={false} description="Get in touch.">
       <article>
-        <p>Get in touch.</p>
+        <p>get in touch.</p>
 
         <blockquote>
-          <a href="mailto:p@paco.im?subject=Hello" className="reset">
-            p@paco.im
+          <a href="mailto:mail@puure.space?subject=Hello" className="reset">
+            mail@puure.space
           </a>
         </blockquote>
       </article>

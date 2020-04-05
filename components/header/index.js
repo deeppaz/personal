@@ -88,13 +88,6 @@ const Header = ({ title, content }) => {
               name: 'Collections',
               collection: true,
               items: [
-  
-                {
-                  name: 'Music',
-                  keybind: 'g m',
-                  icon: <Music />,
-                  callback: () => router.push('/music')
-                },
                 {
                   name: 'Projects',
                   keybind: 'g p',
@@ -106,6 +99,12 @@ const Header = ({ title, content }) => {
                   keybind: 'g a',
                   icon: <Quote />,
                   callback: () => router.push('/about')
+                },
+                {
+                  name: 'Music',
+                  keybind: 'g m',
+                  icon: <Music />,
+                  callback: () => router.push('/music')
                 }
               ]
             },
@@ -135,13 +134,13 @@ const Header = ({ title, content }) => {
                   name: 'Twitter',
                   icon: <Twitter />,
                   callback: () =>
-                    window.open('https://twitter.com/pacocoursey', '_blank')
+                    window.open('https://twitter.com/7fffd2', '_blank')
                 },
                 {
                   name: 'GitHub',
                   icon: <GitHub />,
                   callback: () =>
-                    window.open('https://github.com/pacocoursey', '_blank')
+                    window.open('https://github.com/deeppaz', '_blank')
                 }
               ]
             }
