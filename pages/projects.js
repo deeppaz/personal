@@ -27,6 +27,13 @@ const Projects = () => {
         />
 
         <Entry
+          title="IAmAlanWalker"
+          description="Walkers Join!"
+          image="https://i.imgur.com/lHsXJIn.jpg"
+          href="https://iamalanwalker.com/"
+        />
+
+        <Entry
           title="Cryptosozluk"
           description="Alternative source of information for Cryptocurrency only"
           image="https://pbs.twimg.com/media/ENnYEq5XYAEGMBg?format=jpg"
