@@ -5,7 +5,7 @@ const defaultOgImage =
 
 const Head = ({
   title = 'pure',
-  description = "Hi, I'm Paco. Frontend developer and designer.",
+  description = "hey, I'm pure. full stack developer",
   image = defaultOgImage,
   children
 }) => {
@@ -24,21 +24,21 @@ const Head = ({
       <meta name="og:image" content={image} />
 
       {/* URL */}
-      <meta name="og:url" content="https://paco.im" />
+      <meta name="og:url" content="https://puure.space" />
 
       {/* General */}
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@pacocoursey" />
-      <meta name="apple-mobile-web-app-title" content="Paco" />
+      <meta name="twitter:site" content="@7fffd2" />
+      <meta name="apple-mobile-web-app-title" content="pure" />
       <meta name="author" content="pure" />
 
       {/* RSS feed */}
       <link
         rel="alternate"
         type="application/rss+xml"
-        title="RSS Feed for paco.im"
+        title="RSS Feed for puure.space"
         href="/feed.xml"
       />
 
@@ -50,15 +50,15 @@ const Head = ({
       />
       <link
         rel="icon"
-        type="image/png"
+        type="image/x-icon"
         sizes="32x32"
-        href="/favicon/favicon-32x32.png"
+        href="/favicon/favicon.ico"
       />
       <link
         rel="icon"
-        type="image/png"
+        type="image/x-icon"
         sizes="16x16"
-        href="/favicon/favicon-16x16.png"
+        href="/favicon/favicon.ico"
       />
       <link rel="manifest" href="/favicon/site.webmanifest" />
       <link

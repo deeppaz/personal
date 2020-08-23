@@ -9,7 +9,7 @@ const About = () => {
 
         <p>
           full stack developer but usually Front-End ,{' '}
-          <Link underline href="/future">
+          <Link underline href="https://deeppaz.tumblr.com/archive">
             futuristic
           </Link>{' '}
             enthusiast, practicing minimalist. and{' '}

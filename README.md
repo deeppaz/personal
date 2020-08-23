@@ -1,4 +1,4 @@
-#thanksfor[paco.im](https://paco.im)
+#original[paco.im](https://paco.im)
 # [puure.space](https://puure.space)
 
 > personal website and blog. designed with a focus on minimalism

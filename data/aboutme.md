@@ -6,8 +6,3 @@
 >
 > i attach importance to simplicity on the front-end. since i make a point of minimalism i don't like complicacy on the front-end. I use mongodb and firebase on the back-end
 
-[_github_](https://github.com/deeppaz), my github profile
-[_twitter_](https://github.com/deeppaz), twitter account
-[_linkedin_](https://github.com/deeppaz), my linkedin profile
-
-<br />

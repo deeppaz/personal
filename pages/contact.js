@@ -11,6 +11,24 @@ const Contact = () => {
             mail@puure.space
           </a>
         </blockquote>
+
+        <blockquote>
+          <a href="https://github.com/deeppaz" className="reset">
+            my github profile
+          </a>
+        </blockquote>
+
+        <blockquote>
+          <a href="https://twitter.com/7fffd2" className="reset">
+            twitter account
+          </a>
+        </blockquote>
+
+        <blockquote>
+          <a href="https://github.com/deeppaz" className="reset">
+            linkedin
+          </a>
+        </blockquote>
       </article>
     </Page>
   )

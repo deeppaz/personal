@@ -13,6 +13,20 @@ const Projects = () => {
         />
 
         <Entry
+          title="Hosmus"
+          description="The beauty in the photo"
+          image="https://i.imgur.com/4A9HloR.png"
+          href="https://hosmus.com/"
+        />
+
+        <Entry
+          title="Serenes"
+          description="Serenes player for listen to music while working"
+          image="https://i.imgur.com/nxhNoSl.jpg"
+          href="https://serenes.space/"
+        />
+
+        <Entry
           title="Cryptosozluk"
           description="Alternative source of information for Cryptocurrency only"
           image="https://pbs.twimg.com/media/ENnYEq5XYAEGMBg?format=jpg"
