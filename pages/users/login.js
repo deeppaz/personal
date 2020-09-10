@@ -24,7 +24,7 @@ const Login = () => {
             })
         setUsername('')
         setPassword('')
-        router.push("/")
+        router.push("/blog")
     }
     return (
         <Page>

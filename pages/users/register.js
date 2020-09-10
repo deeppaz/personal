@@ -30,7 +30,7 @@ const Register = () => {
             .catch((err) => {
                 console.log(err.code, err.message)
             });
-        router.push("/")
+        router.push("login")
     }
     return (
         <Page>
