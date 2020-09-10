@@ -95,6 +95,12 @@ const Header = ({ title, content }) => {
                   callback: () => router.push('/projects')
                 },
                 {
+                  name: 'Blog',
+                  keybind: 'g b',
+                  icon: <Pencil />,
+                  callback: () => router.push('/blog')
+                },
+                {
                   name: 'About',
                   keybind: 'g a',
                   icon: <Quote />,
