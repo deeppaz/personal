@@ -4,6 +4,8 @@ import fire from '../config/fire-config';
 const CreatePost = () => {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
+  const [description, setDescription] = useState('');
+  const [image, setImage] = useState('');
   const [notification, setNotification] = useState('');
 
   const handleSubmit = (event) => {
@@ -14,10 +16,14 @@ const CreatePost = () => {
       .add({
         title: title,
         content: content,
+        description: description,
+        image: image,
       });
 
     setTitle('');
     setContent('');
+    setDescription('');
+    setImage('');
 
     setNotification('Blogpost created');
     setTimeout(() => {
@@ -38,6 +44,14 @@ const CreatePost = () => {
         <div>
           Content<br />
           <textarea value={content} onChange={({target}) => setContent(target.value)} />
+        </div>
+        <div>
+          post description<br />
+          <textarea value={description} onChange={({target}) => setDescription(target.value)} />
+        </div>
+        <div>
+          image<br />
+          <textarea src={image} onChange={({target}) => setImage(target.value)} />
         </div>
         <button type="submit">Save</button>
       </form>

@@ -1,10 +1,13 @@
 import fire from '../../config/fire-config';
 import Link from 'next/link'
 
+import Page from '@components/page'
+
+
 const Blog = (props) => {
 
   return (
-    <div>
+    <Page>
       <h2>{props.title}</h2>
       <p>
         {props.content}
@@ -12,7 +15,7 @@ const Blog = (props) => {
       <Link href="/blog">
         <a>Back</a>
       </Link>
-    </div>
+    </Page>
   )
 }
 

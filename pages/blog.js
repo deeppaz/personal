@@ -5,6 +5,7 @@ import CreatePost from '../components/CreatePost';
 import Head from 'next/head';
 import Link from 'next/link';
 import Page from '@components/page'
+import Entry from '@components/entry'
 
 
 const Blog = () => {
@@ -50,18 +51,18 @@ const Blog = () => {
                 {notification}
                 {!loggedIn
                     ?
-                    <div>
-                        <Link href="/users/register">
+                    <>
+                        {/* <Link href="/users/register">
                             <a>Register</a>
                         </Link> |
                         <Link href="/users/login">
                             <a> Login</a>
-                        </Link>
-                    </div>
+                        </Link> */}
+                    </>
                     :
                     <button style={{ float: "right", marginTop: "-4em" }} onClick={handleLogout}>Logout</button>
                 }
-                <ul>
+                {/* <ul>
                     {blogs.map(blog =>
                         <li key={blog.id}>
                             <Link href="/blog/[id]" as={'/blog/' + blog.id}>
@@ -69,7 +70,18 @@ const Blog = () => {
                             </Link>
                         </li>
                     )}
-                </ul>
+                </ul> */}
+                {blogs.map(blog =>
+                    <Entry
+                        key={blog.id}
+                        title={blog.title}
+                        description={blog.description}
+                        image={blog.image}
+                        // href={entry.url}
+                        href={'/blog/' + blog.id}
+
+                    />
+                )}
                 {loggedIn &&
                     <Link href="/blog/newpost">
                         <a>Create Post</a>
