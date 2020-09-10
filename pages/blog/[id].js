@@ -9,7 +9,7 @@ const Blog = (props) => {
       <p>
         {props.content}
       </p>
-      <Link href="/">
+      <Link href="/blog">
         <a>Back</a>
       </Link>
     </div>
