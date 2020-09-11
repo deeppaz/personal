@@ -13,7 +13,7 @@ const Blog = (props) => {
         {props.content}
       </p>
       <Link href="/blog">
-        <a>Back</a>
+        <a style={{color: "orangered", textDecoration: "none"}}>←back</a>
       </Link>
     </Page>
   )
