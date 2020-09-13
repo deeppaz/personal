@@ -83,9 +83,7 @@ const Blog = () => {
                     />
                 )}
                 {loggedIn &&
-                    <Link href="/blog/newpost">
-                        <a>Create Post</a>
-                    </Link>
+                    <CreatePost />
                 }
             </article>
         </Page>
