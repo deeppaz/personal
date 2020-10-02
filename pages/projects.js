@@ -13,6 +13,13 @@ const Projects = () => {
         />
 
         <Entry
+          title="focircle"
+          description="focircle is a bot that posts fotografs to tumblr, twitter"
+          image="https://64.media.tumblr.com/1a45c9ae9b2fa3ddc3dee4723043870f/c5732907666409b4-d5/s2048x3072_c14516,0,84758,100000/9f213c770fd364a52ec66f963c21a9794ee4a3d2.png"
+          href="https://focircle.tumblr.com/"
+        />
+
+        <Entry
           title="Hosmus"
           description="The beauty in the photo"
           image="https://i.imgur.com/4A9HloR.png"
