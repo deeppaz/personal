@@ -19,7 +19,7 @@
     "gray-matter": "^4.0.2",
     "intersection-observer": "^0.7.0",
     "lodash.debounce": "^4.0.8",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "match-sorter": "^4.0.2",
     "next": "^9.3.0",
     "nprogress": "^0.2.0",
