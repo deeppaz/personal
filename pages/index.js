@@ -3,12 +3,12 @@ import Link from '@components/link'
 
 const About = () => {
   return (
-    <Page description="hey, i'm pure. full stack developer but usually Front-End , futuristic enthusiast, practicing minimalist. and unlimited music genre lover in search of flow. you can also hit social media accounts">
+    <Page description="hello there, it's pure. Front-End developer, futuristic enthusiast, practicing minimalist. and unlimited music genre lover in search of flow. you can also hit social media accounts">
       <article>
         <h1>pure</h1>
 
         <p>
-          full stack developer but usually Front-End ,{' '}
+          hello there, it's pure. Front-End developer ,{' '}
           <Link underline href="https://deeppaz.tumblr.com/archive">
             futuristic
           </Link>{' '}
@@ -25,11 +25,11 @@ const About = () => {
         </p>
 
         <p>
-          working with{' '}🥝
-          <Link underline href="https://kivimenu.com" external>
-            kivimenu
+          working with{' '}˗ˏˋ ´ˎ˗
+          <Link underline href="https://opaliv.com" external>
+            opaliv
           </Link>{' '}
-          to make restaurants faster and better.
+          to make world better.
         </p>
       </article>
     </Page>
