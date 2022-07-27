@@ -27,9 +27,9 @@ const About = () => {
         <p>
           working with{' '}˗ˏˋ ´ˎ˗
           <Link underline href="https://opaliv.com" external>
-            opaliv
+            pubinno
           </Link>{' '}
-          to make world better.
+          to make the future of draft beer
         </p>
       </article>
     </Page>
