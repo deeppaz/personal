@@ -26,7 +26,7 @@ const About = () => {
 
         <p>
           working with{' '}˗ˏˋ ´ˎ˗
-          <Link underline href="https://opaliv.com" external>
+          <Link underline href="https://pubinno.com" external>
             pubinno
           </Link>{' '}
           to make the future of draft beer
