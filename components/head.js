@@ -5,7 +5,7 @@ const defaultOgImage =
 
 const Head = ({
   title = 'pure',
-  description = "hey, I'm pure. full stack developer",
+  description = "hey, I'm serhat. front-end developer",
   image = defaultOgImage,
   children
 }) => {
@@ -31,8 +31,8 @@ const Head = ({
       <meta httpEquiv="Content-Language" content="en" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@7fffd2" />
-      <meta name="apple-mobile-web-app-title" content="pure" />
-      <meta name="author" content="pure" />
+      <meta name="apple-mobile-web-app-title" content="deeppaz" />
+      <meta name="author" content="deeppaz" />
 
       {/* RSS feed */}
       <link

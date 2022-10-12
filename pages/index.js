@@ -3,12 +3,12 @@ import Link from '@components/link'
 
 const About = () => {
   return (
-    <Page description="hello there, it's pure. Front-End developer, futuristic enthusiast, practicing minimalist. and unlimited music genre lover in search of flow. you can also hit social media accounts">
+    <Page description="hello there, it's serhat. front-end developer, futuristic enthusiast, practicing minimalist. and unlimited music genre lover in search of flow. you can also hit social media accounts">
       <article>
         <h1>pure</h1>
 
         <p>
-          hello there, it's pure. Front-End developer ,{' '}
+          hello there, it's serhat. front-end developer ,{' '}
           <Link underline href="https://deeppaz.tumblr.com/archive">
             futuristic
           </Link>{' '}
