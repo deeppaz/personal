@@ -8,7 +8,7 @@ const About = () => {
         <h1>pure</h1>
 
         <p>
-          hello there, it's serhat. front-end developer ,{' '}
+          hello there, it's serhat. frontend developer,{' '}
           <Link underline href="https://deeppaz.tumblr.com/archive">
             futuristic
           </Link>{' '}
@@ -19,17 +19,17 @@ const About = () => {
             in search of flow.
         
             you can also hit {' '}
-          <Link underline href="/about">
+          <Link underline href="/contact">
             social media accounts
           </Link>{' '}
         </p>
 
         <p>
-          working with{' '}˗ˏˋ ´ˎ˗
+          working with{' '}
           <Link underline href="https://pubinno.com" external>
             pubinno
           </Link>{' '}
-          to make the future of draft beer
+          to make the future of draft beer (•‿‿•)
         </p>
       </article>
     </Page>
