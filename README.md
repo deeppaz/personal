@@ -1,5 +1,16 @@
-# [puure.space](https://puure.space)
+# pure
 
-> personal website and blog. designed with a focus on minimalism
+> minimal portfolio built with vite + react
 
-built with [next.js](https://nextjs.org) and styled with [styled-jsx](https://github.com/zeit/styled-jsx).
+## development
+
+```bash
+npm install
+npm run dev
+```
+
+## build
+
+```bash
+npm run build
+```

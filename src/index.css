@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --bg: #fff;
+  --fg: #131415;
+  --text: #333;
+  --link: #666;
+  --link-hover: #000;
+}
+
+[data-theme="dark"] {
+  --bg: #131415;
+  --fg: #fff;
+  --text: #e4e4e4;
+  --link: #999;
+  --link-hover: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.2s, color 0.2s;
+}
+
+header {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 10;
+}
+
+.theme-toggle {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.toggle-slider {
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.toggle-slider svg {
+  filter: drop-shadow(0 0 4px #3b82f6) drop-shadow(0 0 8px #60a5fa);
+}
+
+.toggle-slider:not([data-theme="dark"]) {
+  text-shadow: 0 0 8px #1e3a8a, 0 0 16px #3b82f6, 0 0 24px #60a5fa;
+}
+
+[data-theme="dark"] .theme-toggle {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] .toggle-slider {
+  transform: translateX(40px);
+  background: #1c1c1e;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .toggle-slider svg {
+  filter: drop-shadow(0 0 4px #f59e0b) drop-shadow(0 0 8px #fbbf24);
+}
+
+.logo-container {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 2rem 1rem 0;
+}
+
+.logo-container svg {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.logo-container svg:hover {
+  transform: scale(1.05);
+}
+
+.logo-breathe {
+  animation: breathe 3s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0%, 100% { 
+    transform: scale(1);
+    filter: drop-shadow(0 0 8px var(--fg)) drop-shadow(0 0 16px var(--fg)) drop-shadow(0 0 24px var(--fg));
+  }
+  50% { 
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 16px var(--fg)) drop-shadow(0 0 32px var(--fg)) drop-shadow(0 0 48px var(--fg));
+  }
+}
+
+main {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  min-height: calc(100vh - 15rem);
+  display: flex;
+  align-items: center;
+}
+
+article {
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--fg);
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
