@@ -55,7 +55,7 @@ const Header = ({ title, content }) => {
           <Logo />
         </div>
 
-        <Command
+        {/* <Command
           max={5}
           width="calc(var(--main-content) - var(--gap))"
           top={
@@ -155,7 +155,7 @@ const Header = ({ title, content }) => {
           <button className={styles.command} title="⌘K">
             <CommandIcon />
           </button>
-        </Command>
+        </Command> */}
         {content && <div className={styles.content}>{content}</div>}
       </div>
     </nav>
