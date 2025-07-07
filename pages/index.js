@@ -25,11 +25,11 @@ const About = () => {
         </p>
 
         <p>
-          working with{' '}
-          <Link underline href="https://pubinno.com" external>
-            pubinno
+          working on{' '}
+          <Link underline href="https://github.com/deeppaz/zen" external>
+            kanjibot
           </Link>{' '}
-          to make the future of draft beer (•‿‿•)
+          to make some money (•‿‿•)
         </p>
       </article>
     </Page>
