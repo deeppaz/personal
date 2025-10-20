@@ -83,7 +83,7 @@ function App() {
           <p>
             working on{" "}
             <a
-              href="https://github.com/deeppaz/zen"
+              href="https://skysection.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
