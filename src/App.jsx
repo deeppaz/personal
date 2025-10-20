@@ -87,9 +87,9 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              kanjibot
+              skysection
             </a>{" "}
-            to make some money (•‿‿•)
+            to create extraordinary things in new media (•‿‿•)
           </p>
         </article>
       </main>
